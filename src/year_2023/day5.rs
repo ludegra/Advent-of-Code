@@ -57,7 +57,7 @@ fn part_b(args: &Vec<String>) {
     let mut lines = read_input_lines(YEAR, DAY, &args[0]);
 
     let seed_line = lines.next().unwrap();
-    let mut seeds = seed_line[7..].split(' ').map(|s| s.parse::<i64>().unwrap()).collect::<Vec<_>>();
+    let seeds = seed_line[7..].split(' ').map(|s| s.parse::<i64>().unwrap()).collect::<Vec<_>>();
 
     let mut seed_ranges = seeds.into_iter().tuples().map(|(a, b)| (a, a + b)).collect::<HashSet<(i64, i64)>>();
 

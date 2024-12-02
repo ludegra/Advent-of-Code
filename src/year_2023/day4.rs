@@ -1,7 +1,6 @@
 use std::collections::HashSet;
 
 use aoc::read_input_lines;
-use regex::Regex;
 
 const YEAR: u32 = 2023;
 const DAY: u32 = 4;

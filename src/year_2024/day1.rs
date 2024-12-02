@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 use aoc::read_input_lines;
-use regex::Regex;
+// use regex::Regex;
 
 const YEAR: u32 = 2024;
 const DAY: u32 = 1;
