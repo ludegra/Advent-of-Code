@@ -27,6 +27,7 @@ fn main() {
         "2024" => match &day[..] {
             "1" => year_2024::day1::run(args),
             "2" => year_2024::day2::run(args),
+            "3" => year_2024::day3::run(args),
             _ => panic!("Invalid day for year {}", 2024)
         }
         _ => panic!("Inavlid year"),
